@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/spring_dataSource/pom.xml" />
         <option value="$PROJECT_DIR$/spring_xml_autowired/pom.xml" />
         <option value="$PROJECT_DIR$/spring_ioc_annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-aop/pom.xml" />
       </list>
     </option>
   </component>

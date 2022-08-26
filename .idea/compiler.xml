@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring_helloworld" />
+        <module name="spring-proxy" />
+        <module name="spring_xml_autowired" />
+        <module name="spring-aop" />
         <module name="spring_dataSource" />
         <module name="spring_ioc_xml" />
-        <module name="spring_xml_autowired" />
         <module name="spring_ioc_annotation" />
       </profile>
     </annotationProcessing>
