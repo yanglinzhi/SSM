@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="studentOne" class="com.ylz.spring.pojo.Student1"/>
+    <!--setter注入-->
+    <bean id="studentTwo" class="com.ylz.spring.pojo.Student2">
+        <!--
+            property:通过成员变量的set方法进行赋值
+            name:需要赋值的变量名
+            value:为变量所赋的值
+        -->
+        <property name="sId" value="1"/>
+        <property name="sName" value="张三"/>
+        <property name="age" value="23"/>
+        <property name="gender" value="男"/>
+    </bean>
+    <!--有参构造器注入-->
+    <bean id="studentThree" class="com.ylz.spring.pojo.Student2">
+        <constructor-arg value="1002"/>
+        <constructor-arg value="李四"/>
+        <constructor-arg value="25"/>
+        <constructor-arg value="男"/>
+    </bean>
+</beans>

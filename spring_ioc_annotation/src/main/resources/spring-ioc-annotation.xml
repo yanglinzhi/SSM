@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+    <!--
+        context:exclude-filter: 排除扫描
+        type: 设置扫描方式
+        type="annotation|assignable"
+        annotation:根据注解类型进行排除,expression设置排除注解的全类名
+        assignable:根据类的类型进行排除,expression设置排除类的全类名
+    -->
+
+    <!--扫描组件-->
+    <context:component-scan base-package="com.ylz.spring">
+        <!--根据注解进行排除-->
+        <!--<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>-->
+        <!--根据类类型进行排除-->
+        <!--<context:exclude-filter type="assignable" expression="com.ylz.spring.controller.UserController"/>-->
+        <context:include-filter type="assignable" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+</beans>
