@@ -8,8 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring_helloworld" />
         <module name="spring-proxy" />
+        <module name="springMvc_helloworld" />
         <module name="spring-transaction" />
         <module name="spring_xml_autowired" />
+        <module name="springMvc_getParameter" />
         <module name="spring-aop" />
         <module name="spring_dataSource" />
         <module name="spring_ioc_xml" />
