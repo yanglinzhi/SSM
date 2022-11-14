@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xml:th = "http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>添加员工</title>
+</head>
+<body>
+    <form th:action="@{/employee}" method="post">
+        id:<input type="text" th:value="${employee.id}" name="id">
+        lastName:<input type="text" th:value="${employee.lastName}" name="lastName">
+        email:<input type="text" th:value="${employee.email}" name="email">
+        gender:<input type="text"  th:value="${employee.gender}" name="gender">
+        <input type="submit" th:value="提交">
+    </form>
+</body>
+</html>

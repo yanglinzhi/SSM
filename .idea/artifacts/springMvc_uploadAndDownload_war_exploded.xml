@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="springMvc_uploadAndDownload:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/springMvc_uploadAndDownload_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="springMvc_uploadAndDownload/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="springMvc_uploadAndDownload" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

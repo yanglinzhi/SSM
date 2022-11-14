@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
 Success Html
+<p th:text="${testRequestScope}"></p><br>
+<p th:text="${session.testSessionScope}"></p><br>
+<p th:text="${application.testApplication}"></p><br>
 </body>
 </html>

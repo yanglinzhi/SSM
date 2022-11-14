@@ -6,9 +6,19 @@
     </list>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FindBugsConfigurable">
+    <option name="make" value="true" />
+    <option name="effort" value="default" />
+    <option name="priority" value="Medium" />
+    <option name="excludeFilter" value="" />
+  </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springMvc_annotation" />
+    <file type="web" url="file://$PROJECT_DIR$/springMvc_extension" />
     <file type="web" url="file://$PROJECT_DIR$/springMvc_getParameter" />
     <file type="web" url="file://$PROJECT_DIR$/springMvc_helloworld" />
+    <file type="web" url="file://$PROJECT_DIR$/springMvc_restful" />
+    <file type="web" url="file://$PROJECT_DIR$/ssmIntegration" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -23,10 +33,18 @@
         <option value="$PROJECT_DIR$/spring-transaction/pom.xml" />
         <option value="$PROJECT_DIR$/springMvc_helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/springMvc_getParameter/pom.xml" />
+        <option value="$PROJECT_DIR$/springMvc_restful/pom.xml" />
+        <option value="$PROJECT_DIR$/springMvc_uploadAndDownload/pom.xml" />
+        <option value="$PROJECT_DIR$/springMvc_extension/pom.xml" />
+        <option value="$PROJECT_DIR$/springMvc_annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/ssmIntegration/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SuppressionsComponent">
+    <option name="suppComments" value="[]" />
   </component>
 </project>

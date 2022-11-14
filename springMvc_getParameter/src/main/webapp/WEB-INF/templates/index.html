@@ -19,6 +19,24 @@
     密码:<input type="password" name="password"><br>
     <input type="submit" value="登录"><br>
 </form>
+通过springMVC自带的方法进行获取参数(名字不对应情况)
+<form th:action="@{/param1}" method="post">
+    用户名:<input type="text" name="userName"><br>
+    密码:<input type="password" name="password"><br>
+    <input type="submit" value="登录"><br>
+</form>
+通过pojo(实体类)进行获取参数(名字不对应情况)
+<form th:action="@{/param/pojo}" method="get">
+    用户名:<input type="text" name="username"><br>
+    密码:<input type="password" name="password"><br>
+    <input type="submit" value="登录"><br>
+</form>
+<hr>
+<a th:href="@{/test/mav}"> 通过ModelAndView向请求域共享数据 </a><br>
+<a th:href="@{/test/model}"> 通过Model向请求域共享数据 </a><br>
+<a th:href="@{/test/modelMap}"> 通过ModelMap向请求域共享数据 </a><br>
+<a th:href="@{/test/session}"> 向会话域共享数据 </a><br>
+<a th:href="@{/test/application}"> 向应用域共享数据 </a><br>
 
 </body>
 </html>

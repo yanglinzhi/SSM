@@ -10,8 +10,21 @@
           <root url="file://$MODULE_DIR$/springMvc_getParameter/src/main/webapp" relative="/" />
         </webroots>
         <sourceRoots>
+          <root url="file://$MODULE_DIR$/springMvc_getParameter/src/main/java" />
           <root url="file://$MODULE_DIR$/springMvc_getParameter/src/main/resources" />
         </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="JRebel" name="JRebel">
+      <configuration>
+        <option name="ideModuleStorage">
+          <map>
+            <entry key="com.zeroturnaround.jrebel.FormatVersion" value="7.0.0" />
+            <entry key="jrebelEnabled" value="true" />
+            <entry key="lastExternalPluginCheckTime" value="1663660727782" />
+          </map>
+        </option>
+        <option name="version" value="9" />
       </configuration>
     </facet>
   </component>

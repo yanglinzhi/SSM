@@ -8,14 +8,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring_helloworld" />
         <module name="spring-proxy" />
+        <module name="springMvc_uploadAndDownload" />
+        <module name="springMvc_getParameter" />
         <module name="springMvc_helloworld" />
+        <module name="springMvc_annotation" />
+        <module name="ssmIntegration" />
         <module name="spring-transaction" />
         <module name="spring_xml_autowired" />
-        <module name="springMvc_getParameter" />
         <module name="spring-aop" />
         <module name="spring_dataSource" />
+        <module name="springMvc_extension" />
         <module name="spring_ioc_xml" />
         <module name="spring_ioc_annotation" />
+        <module name="springMvc_restful" />
       </profile>
     </annotationProcessing>
   </component>
